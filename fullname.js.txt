@@ -1,0 +1,13 @@
+import React, {Component} from "react";
+
+class FullName extends Component{
+  render(){
+    return(
+      <>
+      <p className="fullname">Murad</p>
+      </>
+    )
+  }
+}
+
+export default FullName;

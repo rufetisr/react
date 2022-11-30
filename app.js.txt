@@ -1,0 +1,18 @@
+import React from "react"
+import Menu from "./Menu";
+import FullName from "./Fullname";
+import  "./styles.css";
+
+let App = ()=>{
+  return (
+    <>
+      <h3 className="app">Rufat</h3>
+      <Menu/>
+      <FullName/>
+    </>
+
+  )
+}
+
+
+export default App;
